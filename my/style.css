@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px 15px;
+}
+
+
+#img-inicio {
+    height: 450px;
+    max-width: 100vw;
+    box-shadow: 4px 4px 10px 4px black;
+}
+
+
+.itens-do-menu h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+}
+
+
+.itens-do-menu > h1 > a {
+    text-decoration: none;
+    color: rgb(233, 154, 7);
+}
+
+
+button {
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-color: rgb(233, 154, 7);;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+button:hover {
+    background-color: orange;
+    transition: 0.3s;
+}
+
+
+.container {
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.itens-1 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -1-new.png);
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+
+.itens-2 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -3-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+
+
+.itens-3 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -4-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.itens-4 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -1-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.itens-5 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -3-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.itens-6 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -4-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.itens-7 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -1-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.itens-8 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -3-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.itens-9 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -4-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.itens-10 {
+    height: 350px;
+    width: 220px;
+    background-image: url(item\ -3-new.png);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+

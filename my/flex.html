@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            height: 60vh;
+            width: 99vw;
+            background-color: black;
+            overflow-x: hidden;
+
+        } 
+
+        .child {
+            color: black;
+            width: 120px;
+            background-color: white;
+        }
+
+        .child > h2 {
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+
+        .child > p {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.7em;
+            padding: 10px;
+        }
+
+
+        .container-menu {
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            width: 99vw;
+            padding: 15px 0 15px 15px;
+            background-color: black;
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1.2em;
+            overflow-x: hidden;
+        }
+
+        button {
+            margin: 10px 20px 15px;
+            padding: 5px;
+            border: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 1em;
+            color: rgba(245, 245, 245, 0.733);
+            background-color: red;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+
+        .rodape {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 35vh;
+            width: 85vw;
+            overflow-x: hidden;
+            margin: auto;
+            margin-right: 23px;
+        }
+
+        .adicional-1 h3 {
+            padding: 15px;
+        }
+
+        .adicional-1 {
+            width: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.7em;
+            color: rgba(255, 255, 255, 0.815);
+            margin-left: 20px;
+
+        }
+
+
+        .adicional-2 h3 {
+            padding: 15px;
+        }
+
+        .adicional-2 {
+            width: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.7em;
+            color: rgba(255, 255, 255, 0.815);
+            margin-left: 30px;
+
+        }
+
+
+
+        .adicional-3 h3 {
+            padding: 15px;
+        }
+
+        .adicional-3 {
+            width: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.7em;
+            color: rgba(255, 255, 255, 0.815);
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-menu">
+        <div class="h1-menu"><h1>Best's Coachs</h1></div>
+        <div class="menu-btn"><button>Information</button></div>
+
+    </div>
+    <div class="container">
+        <div class="child">
+            <h2>Pep</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus voluptates fugiat, eaque ipsam ut ratione dolore perferendis facilis dolor? Placeat, in. Non quas ullam porro blanditiis accusamus veritatis unde.</p>
+        </div>
+        <div class="child">
+            <h2>Klopp</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur fugiat perspiciatis alias maxime. Quibusdam, officia dolore obcaecati iure aliquam quis esse alias, adipisci animi pariatur maiores similique modi tempore.</p>
+        </div>
+        <div class="child">
+            <h2>Ralf</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto blanditiis nesciunt voluptas nostrum beatae, autem accusantium rerum. Enim laboriosam labore aperiam numquam officiis! Ab, repellendus deleniti? Quaerat, consectetur asperiores!</p>
+        </div>
+    </div>
+    <div class="rodape">
+        <div class="adicional-1">
+            <h3>More Information</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur iure quae, animi totam quia harum officia vitae! Voluptatibus, obcaecati pariatur! Ipsum, molestias saepe assum</p>
+        </div>
+        <div class="adicional-2">
+            <h3>Contact us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsam qui similique minima voluptatibus velit tenetur quis earum quo accusantium error commodi optio quasi, vitae eaque quae sit explicabo ullam.</p>
+        </div>
+        <div class="adicional-3">
+            <h3>Social Media</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui aperiam, possimus accusantium porro fuga neque et eveniet delectus iusto quae repudiandae distinctio optio tempore corporis ullam quasi consequatur eius?</p>
+        </div>
+    </div>
+</body>
+</html>
